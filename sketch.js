@@ -8,7 +8,7 @@ function sendToSheet(name, score) {
   formData.append("name", name);
   formData.append("score", score);
 
-  fetch('https://script.google.com/macros/s/AKfycbywE-tgvR1IDdHA1LOAWpZZ8DRDnQ8kkY7S1XZ8V3h8CCF42F_CP18FFaciKd2APQ5U/exec', {
+  fetch('https://script.google.com/macros/s/AKfycbzolULzyozcc4qkQXWymLVZAYQwKWWFzwKD81Y1JB1FPyXa4qoOEk-qNexUx5veBOHy/exec', {
     method: 'POST',
     body: formData
   })
