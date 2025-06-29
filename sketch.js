@@ -4,7 +4,7 @@ function setup() {
 }
 
 function sendToSheet(name, score) {
-  fetch('https://script.google.com/macros/s/AKfycbwsuCEYEVYrhIi8jIk38X3A7Ab9Zzx5KgByHBKLrxx9zfBEeEwoR0S7D0Trcyl-_Rrf/exec', {
+  fetch('https://script.google.com/macros/s/AKfycbywE-tgvR1IDdHA1LOAWpZZ8DRDnQ8kkY7S1XZ8V3h8CCF42F_CP18FFaciKd2APQ5U/exec', {
     method: 'POST',
     body: JSON.stringify({ name: name, score: score }),
     headers: {
