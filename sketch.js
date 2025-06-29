@@ -4,7 +4,7 @@ function setup() {
 }
 
 function sendToSheet(name, score) {
-  fetch('https://your-web-app-url', {
+  fetch('https://script.google.com/macros/s/AKfycbwC4E-5MPpiUhJkr3NRhAK1A5S13umAgBpjwRK4nRo/dev', {
   method: 'POST',
   mode: 'no-cors',  // 👈 key addition
   headers: {
