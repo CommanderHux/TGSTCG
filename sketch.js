@@ -3,7 +3,7 @@ function setup() {
   sendToSheet();
 }
 
-function sendToSheet(name, score) {
+function sendToSheet() {
   fetch("https://script.google.com/macros/s/AKfycbwC4E-5MPpiUhJkr3NRhAK1A5S13umAgBpjwRK4nRo/dev", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
