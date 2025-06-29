@@ -4,7 +4,7 @@ function setup() {
 }
 
 function sendToSheet() {
-  fetch("https://script.google.com/macros/s/AKfycbwC4E-5MPpiUhJkr3NRhAK1A5S13umAgBpjwRK4nRo/dev", {
+  fetch("https://script.google.com/macros/s/AKfycbzolULzyozcc4qkQXWymLVZAYQwKWWFzwKD81Y1JB1FPyXa4qoOEk-qNexUx5veBOHy/exec", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({ message: "Hello from the browser!" })
